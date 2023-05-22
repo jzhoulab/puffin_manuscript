@@ -38,7 +38,3 @@ wget https://zenodo.org/record/7954971/files/resources.tar.xz
 tar xf ./resources.tar.xz
 ```
 
-# puffin_manuscript
-# puffin_manuscript
-# puffin_manuscript
-# puffin_manuscript
