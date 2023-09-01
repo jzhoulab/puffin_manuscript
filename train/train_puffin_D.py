@@ -1,4 +1,5 @@
 import time
+import os
 import numpy as np
 import tabix
 import torch
@@ -15,6 +16,8 @@ torch.set_default_tensor_type('torch.FloatTensor')
 
 seed=3
 modelstr = 'puffin_D'
+
+os.makedirs("./models/", exist_ok=True)
 
 class GenomicSignalFeatures(Target):
     """
