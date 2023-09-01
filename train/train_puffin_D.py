@@ -393,7 +393,7 @@ tfeature = GenomicSignalFeatures(["./resources/agg.plus.bw.bedgraph.bw",
                                [0,9], [1,8], [0.61357, 0.61357])
 
 
-weights = torch.ones(10)
+weights = torch.ones(10).cuda()
 
 
 genome = selene_sdk.sequences.Genome(
