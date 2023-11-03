@@ -30,6 +30,17 @@ The jupyter notebooks are grouped by topics:
 ### Dependencies
 Other than [Puffin dependencies](https://github.com/jzhoulab/puffin#installation), you will also need jupyter, rpy2 python packages which can be installed with Anaconda or pip. For R packages, we will use data.table, ggplot2, patchwork, ggridges, ggrastr, ggthemes, and ggExtra.
 
+For training Puffin-D, you need to install the custom_target_support branch of Selene
+
+```
+git clone https://github.com/kathyxchen/selene.git
+cd selene
+git checkout custom_target_support
+python setup.py build_ext --inplace
+python setup.py install 
+```
+
+
 ### Data
 You will need resource files for reproducing the analyses, and we have provided these files through Zenodo and can be downloaded using the commands below
 ```
