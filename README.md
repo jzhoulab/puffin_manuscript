@@ -28,7 +28,7 @@ The jupyter notebooks are grouped by topics:
 
 
 ### Dependencies
-Other than [Puffin dependencies](https://github.com/jzhoulab/puffin#installation), you will also need jupyter, rpy2 python packages which can be installed with Anaconda or pip. For R packages, we will use data.table, ggplot2, patchwork, ggridges, ggrastr, ggthemes, and ggExtra.
+Other than [Puffin dependencies](https://github.com/jzhoulab/puffin#installation), you will also need jupyter, rpy2 python packages which can be installed with Anaconda or pip. For R packages, we will use data.table, R.utils, ggplot2, patchwork, ggridges, ggrastr, ggthemes, and ggExtra.
 
 For training Puffin-D, you need to install the custom_target_support branch of Selene
 
@@ -47,5 +47,15 @@ You will need resource files for reproducing the analyses, and we have provided 
 #under the puffin_mansucript directory
 wget https://zenodo.org/record/7954971/files/resources.tar.xz
 tar xf ./resources.tar.xz
+
+cd resources 
+wget https://zenodo.org/record/10810327/files/GSM3323461_oligos_measurements_processed_data.tab
+wget https://zenodo.org/record/10810327/files/CRISPRCapV3_S45_R2_001Aligned.sortedByCoord.out.bam 
+wget https://zenodo.org/record/10810327/files/CRISPRCapV4_S51_R2_001Aligned.sortedByCoord.out.bam 
+wget https://zenodo.org/record/10810327/files/pSTAP.bam 
+wget https://zenodo.org/record/10810327/files/Supplemental_Data_S2.tsv
+
+wget https://ftp.ncbi.nlm.nih.gov/geo/series/GSE173nnn/GSE173678/suppl/GSE173678_RAW.tar 
+tar -xf GSE173678_RAW.tar
 ```
 
