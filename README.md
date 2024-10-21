@@ -1,6 +1,6 @@
 ## Puffin Manuscript
 
-This repository contains the code and data required for reproducing the analyses in the Puffin manuscript. For using Puffin and training Puffin models, please visit our main [repository](https://github.com/jzhoulab/puffin). 
+This repository contains the code and data required for reproducing the analyses in the [Puffin manuscript](https://www.science.org/doi/10.1126/science.adj0116). For using Puffin and training Puffin models, please visit our main [repository](https://github.com/jzhoulab/puffin). 
 For most use cases, we highly recommend running Puffin from our webserver, [tss.zhoulab.io](https://tss.zhoulab.io) or [puffin.zhoulab.io](https://puffin.zhoulab.io).
 
 Most of the analyses code are provided in jupyter notebook format. Each jupyter notebook contains a series of analyses and typically generates multiple plots for related analyses.
